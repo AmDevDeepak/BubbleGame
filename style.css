@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 134, 3, 0.603);
+    background-color: #ff4000a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.p-top{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(2, 67, 2, 0.856);
+    background-color: #ff4000d1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    color: white;
+    padding: 0px 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0, 81, 0, 0.947);
+    color: #ff4000f1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.p-bottom{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.879);
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(4, 69, 3, 0.89);
+    background-color: #ff4000e1;
+    font-size: 1.5vw;
+}
+
+.bubble:hover{
+    background-color: rgb(12, 45, 11);
+    background-color: #ff4000fe;
+    cursor: pointer;
+}
+
+#gameOver{
+    font-size: 2vw;
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
